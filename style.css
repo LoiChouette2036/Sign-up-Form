@@ -21,12 +21,27 @@ body{
 
 
 #left {
-    border: 1px solid purple;
     background-color: blueviolet;
     flex:1;
 }
 
 #right {
-    border: 1px solid green;
+    /*border: 5px solid green;*/
     flex: 2;
+    display: flex;
+}
+
+.right_part{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.upper_part, .mid_part, .lower_part {
+    flex: 1; /* Each child will take equal amount of space */
+    /* Add any additional styling, such as padding or background colors */
+}
+
+*{
+    border: 1px solid red;
 }
