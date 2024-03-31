@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Arabic Ramadhan';
+    src: url('fonts/Arabic\ Ramadhan.ttf') format('truetype');
+}
+body{
+    font-family: 'Arabic Ramadhan', sans-serif;
+}
