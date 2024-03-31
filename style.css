@@ -2,6 +2,31 @@
     font-family: 'Arabic Ramadhan';
     src: url('fonts/Arabic\ Ramadhan.ttf') format('truetype');
 }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 body{
     font-family: 'Arabic Ramadhan', sans-serif;
+    min-height: 100vh;/* This ensures the body takes up at least the full height of the viewport */
+    /* Additional styles to ensure the body fills the page */
+    display: flex;
+
+}
+
+
+#left {
+    border: 1px solid purple;
+    background-color: blueviolet;
+    flex:1;
+}
+
+#right {
+    border: 1px solid green;
+    flex: 2;
 }
