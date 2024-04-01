@@ -37,9 +37,12 @@ body{
     flex: 1;
 }
 
-.upper_part, .mid_part, .lower_part {
-    flex: 1; /* Each child will take equal amount of space */
-    /* Add any additional styling, such as padding or background colors */
+.upper_part{
+    flex: 1; 
+}
+
+.lower_part{
+    flex:2;
 }
 
 *{
