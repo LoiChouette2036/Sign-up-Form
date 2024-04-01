@@ -45,6 +45,11 @@ body{
     flex:2;
 }
 
+.info_form{
+    display: flex;
+    gap: 50px;
+}
+
 /*{
     border: 1px solid red;
 }
