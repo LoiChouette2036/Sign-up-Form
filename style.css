@@ -16,7 +16,6 @@ body{
     min-height: 100vh;/* This ensures the body takes up at least the full height of the viewport */
     /* Additional styles to ensure the body fills the page */
     display: flex;
-
 }
 
 
@@ -27,6 +26,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     flex:1;
+    margin: 0;
+    padding: 0;
 }
 
 .logo{
@@ -84,7 +85,13 @@ body{
 form{
     background-color: white;
     padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
+}
+
+label{
+    font-size: 35px;
 }
 
 /*.background_btn{
@@ -92,7 +99,18 @@ form{
 }*/
 
 button {
-    background-color: yellow;
+    background-color:#cf9d72;
+    border: none; 
+    color: white; 
+    padding: 10px 20px; /*apply the first value to the top and bottom and the second value to the left and right sides*/
+    text-align: center;
+    display: inline-block;
+    font-family: 'Arabic Ramadhan';
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px; /* Adjust border-radius as needed, if the button has rounded corners */
 }
 
 legend{
@@ -118,6 +136,7 @@ legend{
 }/*in order to align perfectly the font with email because 
 of the point above E i need to make space*/
 
-/*{
+*{
     border: 1px solid red;
+    box-sizing: border-box;
 }
