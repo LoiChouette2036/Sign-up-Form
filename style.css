@@ -25,7 +25,6 @@ body{
 
 
 #left {
-    /*background-color: blueviolet;*/
     background-image: url(images/neom-AQgbiXczUVg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,10 +62,9 @@ body{
 
 
 #right {
-    /*border: 5px solid green;*/
     flex: 2;
     display: flex;
-    font-size: 40px;  
+    font-size: 32px;  
 }
 
 
@@ -77,33 +75,29 @@ body{
 }
 
 .upper_part{
-    flex: 1; 
     background-color:#f0f0f0;
     padding-left: 30px;
     font-weight: bold;
+    border: 1px solid red;
 }
 
 .lower_part{
-    flex:2;
     background-color: #f0f0f0;
-    /*padding-left: 30px;*/
 }
 
 form{
     background-color: white;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
 }
 
 label{
     font-size: 35px;
 }
 
-/*.background_btn{
-    background-color: #f0f0f0;
-}*/
+.background_btn{
+    background-color: white; /*#f0f0f0;*/
+    padding-left: 30px;
+    padding-top: 10px;
+}
 
 button {
     background-color:#cf9d72;
@@ -123,23 +117,30 @@ button {
 legend{
     margin-bottom: 20px;
     font-weight: bold;
+    padding-left: 30px;
+}
+
+.info_right div {
+    padding-left: 30px;
 }
 
 .info_form{
     display: flex;
     gap: 50px; /*separe first & second colomn*/
-    font-style: 35px;
+    font-style: 35px;  
+    border: 1px solid purple;  
 }
 
-/*.info_right, .info_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /*gap: 10px;
-}*/
+#last_sentence {
+    padding-left: 30px;
+    font-size: 30px;
+}
 
+#last_sentence a {
+    color: #cf9d72;
+}
 
-*{
+/*{
     border: 1px solid red;
     box-sizing: border-box;
 }
