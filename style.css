@@ -58,7 +58,9 @@ body{
     /*border: 5px solid green;*/
     flex: 2;
     display: flex;
+    font-size: 40px;  
 }
+
 
 .right_part{
     display: flex;
@@ -68,16 +70,53 @@ body{
 
 .upper_part{
     flex: 1; 
+    background-color:#f0f0f0;
+    padding-left: 30px;
+    font-weight: bold;
 }
 
 .lower_part{
     flex:2;
+    background-color: #f0f0f0;
+    /*padding-left: 30px;*/
+}
+
+form{
+    background-color: white;
+    padding-left: 30px;
+
+}
+
+/*.background_btn{
+    background-color: #f0f0f0;
+}*/
+
+button {
+    background-color: yellow;
+}
+
+legend{
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .info_form{
     display: flex;
     gap: 50px;
+    font-style: 35px;
 }
+
+.info_right, .info_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.test{
+    padding-top: 1px;
+}/*in order to align perfectly the font with email because 
+of the point above E i need to make space*/
 
 /*{
     border: 1px solid red;
