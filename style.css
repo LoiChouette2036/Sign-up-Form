@@ -29,20 +29,20 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    flex:1;
-    margin: 0;
-    padding: 0;
+    flex: 1;
     font-family: 'Arabic Ramadhan', sans-serif;
+
 }
 
 .logo{
     position: relative;
     top: 15%;
     width: 100%;
+    min-width: 450px;
     height: 18%;
     background-color: rgba(0,0,0,0.5);
     display: flex;
-    gap: 10px;
+    gap: 20px;
  
 }
 
@@ -52,6 +52,7 @@ body{
     font-size: 5em;
     font-weight: bold;
     align-self: center;
+    padding-top: 20px;
 }
 
 .logo img {
@@ -78,11 +79,12 @@ body{
     background-color:#f0f0f0;
     padding-left: 30px;
     font-weight: bold;
-    border: 1px solid red;
+    flex: 1;
 }
 
 .lower_part{
     background-color: #f0f0f0;
+    flex: 2;
 }
 
 form{
@@ -94,8 +96,8 @@ label{
 }
 
 .background_btn{
-    background-color: white; /*#f0f0f0;*/
-    padding-left: 30px;
+    background-color:#f0f0f0;
+    padding-left : 30px;
     padding-top: 10px;
 }
 
@@ -115,9 +117,10 @@ button {
 }
 
 legend{
-    margin-bottom: 20px;
+    padding-top: 10px;
     font-weight: bold;
     padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .info_right div {
@@ -128,7 +131,7 @@ legend{
     display: flex;
     gap: 50px; /*separe first & second colomn*/
     font-style: 35px;  
-    border: 1px solid purple;  
+    padding-bottom: 10px;
 }
 
 #last_sentence {
@@ -140,7 +143,7 @@ legend{
     color: #cf9d72;
 }
 
-/*{
+*{
     border: 1px solid red;
     box-sizing: border-box;
 }
