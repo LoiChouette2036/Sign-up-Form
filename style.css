@@ -143,7 +143,17 @@ legend{
     color: #cf9d72;
 }
 
-*{
+input:invalid + span::before{
+    content: '✖';
+    color: red;
+}
+
+input:valid + span::before{
+    content : '✓';
+    color: green;
+}
+
+/*{
     border: 1px solid red;
     box-sizing: border-box;
 }
