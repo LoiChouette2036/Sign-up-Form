@@ -143,12 +143,14 @@ legend{
     color: #cf9d72;
 }
 
-input:invalid + span::before{
+/*Is it valid or not processing*/
+
+input.is-invalid:invalid + span::before{
     content: '✖';
     color: red;
 }
 
-input:valid + span::before{
+input.is-invalid:valid + span::before{
     content : '✓';
     color: green;
 }

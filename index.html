@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This ensures your site is mobile-responsive -->
     <title>Sign-up Form</title> <!-- This sets the title of your webpage, shown in the browser tab -->
     <link rel="stylesheet" href="style.css"> <!-- Link to an external CSS file for styling -->
-   
+    <script src="script.js" defer></script>  
 </head>
 
 <body>
@@ -28,26 +28,26 @@
             </div>
             
             <div class="lower_part">
-                <form>
+                <form id="form_inscription">
                     <legend>Let's do this!</legend>
 
                     <div class="info_form">
                         <div class="info_right">
                             <div>
                                 <label for="first_name">First Name:<br></label>
-                                <input class="state" type="text" id="first_name" name="first_name_user" required>
+                                <input type="text" id="first_name" name="first_name_user" required>
                                 <span></span>
                             </div>
 
                             <div class=>
                                 <label for="mail">Email:<br></label>
-                                <input class="state" type="email" id="mail" name="mail_user" placeholder="you@example.com" required>
+                                <input type="email" id="mail" name="mail_user" placeholder="you@example.com" required>
                                 <span></span>
                             </div>
                     
                             <div>
                                 <label for="pwd">Password:<br></label>
-                                <input class="state" type="password" id="pwd" name="pwd" required>
+                                <input type="password" id="pwd" name="pwd" required>
                                 <span></span>
                             </div>                  
                         </div>  
@@ -55,19 +55,19 @@
                         <div class="info_left">
                             <div>
                                 <label for="name">Name:<br></label>
-                                <input class="state" type="text" id="name" name="name_user" required>
+                                <input type="text" id="name" name="name_user" required>
                                 <span></span>
                             </div>
 
                             <div class=>
                                 <label for="phoneNumber">Phone Number:<br></label>
-                                <input class="state" type="tel" id="phoneNumber" name="phoneNumber_user">
+                                <input type="tel" id="phoneNumber" name="phoneNumber_user">
                                 <span></span>
                             </div>
                                               
                             <div>
                                 <label for="confirm_pwd">Password:<br></label>
-                                <input class="state" type="password" id="confirm_pwd" name="confirm_pwd" required>
+                                <input type="password" id="confirm_pwd" name="confirm_pwd" required>
                                 <span></span>
                             </div>                  
                         </div>
